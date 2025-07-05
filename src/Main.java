@@ -18,7 +18,7 @@ public class Main {
         LocalDate expirationDate = LocalDate.of(2025, 12, 1);
         FoodProduct apple = new FoodProduct(1, "Apple", 1.50, 50,  manufactureDate , expirationDate, 150);
 
-        Customer customer = new Customer(1, "John Doe", "john.doe@example.com", "123 St", 0);
+        Customer customer = new Customer(1, "John Doe", "john.doe@example.com", "123 St", 5000);
         Cart cart = new Cart();
         cart.addProduct(apple, 5);
         cart.addProduct(smartphone, 1);
